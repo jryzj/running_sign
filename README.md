@@ -27,7 +27,7 @@ generator to show progress bar.
 
 
 
-### running_sign(interval=0, msg_pre="", msg_post="", sign=None, max_num=120)
+#### running_sign(interval=0, msg_pre="", msg_post="", sign=None, max_num=120)
 
 funtion, as entrance of two above function.
     ***parameter***: refer to parameters in above function. If sign != None, will call ***running_sign_progress***, otherwise will call ***running_sign_progress***.
@@ -35,7 +35,7 @@ funtion, as entrance of two above function.
 
 
 
-### running_pct(msg_pre="", msg_post="", sign="■", pct=50, scale=1)
+#### running_pct(msg_pre="", msg_post="", sign="■", pct=50, scale=1)
 
 function, show progress bar.
     parameter:
