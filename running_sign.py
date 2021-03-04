@@ -24,7 +24,7 @@ def running_sign_rotation(interval= 0, msg_pre="", msg_post="",\
             print(line, end="",flush = True)
             if interval > 0:
                 time.sleep(interval)
-            yield i
+            yield
             print('\b' * len(line), end="", flush = True)
             
 
@@ -47,7 +47,7 @@ def running_sign_progress(interval=0, msg_pre = "", msg_post="", sign=".",  max_
             # dotline += sign #increse the number of sign in line
             if interval > 0:
                 time.sleep(interval)
-            yield i
+            yield
             
             #clear the print line to avoid some wrong happens in end line
             #you can try by delete the below line to see what will happen, try it
