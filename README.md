@@ -45,3 +45,13 @@ function, show progress bar.
     ***pct***: number, length of progress bar.
     ***scale***: number, scale of progress bar, default = 1 while the length of progress bar is 100 which means 100 signs.
 
+
+
+# Example
+
+```python
+rs = running_sign_rotation(1)
+for i in range(10):
+    next(rs)
+```
+
